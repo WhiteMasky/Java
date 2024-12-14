@@ -26,5 +26,11 @@ public class DataType {
         System.out.println(d);
         System.out.println(bool);
         System.out.println(c);
+
+        int min = Integer.MIN_VALUE;
+        int max = Integer.MAX_VALUE;
+
+        System.out.println(min);
+        System.out.println(max);
     }
 }
