@@ -1,6 +1,8 @@
 
 
 public class DataType {
+
+    final double PI = 3.1415926535;
     public static void main(String[] args) {
         byte b = (byte) (Math.pow(2, 7) - 1);
         short s = (short) (Math.pow(2, 15) - 1);
@@ -32,5 +34,14 @@ public class DataType {
 
         System.out.println(min);
         System.out.println(max);
+
+        //0表示八进制，0x表示16进制
+        int decimal = 100;
+        int octal = 0144;
+        int hexa = 0x64;
+
+        //表示Unicode字符时,unicode转义符后面跟的是四位的十六进制数
+        char ch = '\u0001';
+        String str = "\u0001";
     }
 }
